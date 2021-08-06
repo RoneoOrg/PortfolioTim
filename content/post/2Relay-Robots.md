@@ -1,9 +1,9 @@
 ---
 title: Pod Racers
-date: false
+date: 8/6/2021
 hero: "/images/relayrobots.jpg"
 excerpt: Pod racing.
-timeToRead: false
+timeToRead: 10
 authors: 
 - Tim Samuelsen
 

@@ -1,9 +1,9 @@
 ---
 title: CLIP 3D Printer Software
-date: false
+date: 8/5/2021
 hero: "/images/mainwindow.png"
 excerpt: Developing controls software for advanced CLIP 3D printers.
-timeToRead: false
+timeToRead: 5
 authors: 
 - Tim Samuelsen
 
