@@ -1,6 +1,6 @@
 ---
 title: CLIP 3D Printer Software
-date: 8/5/2021
+date: 2021-08-5
 hero: "/images/mainwindow.png"
 excerpt: Developing controls software for advanced CLIP 3D printers.
 timeToRead: 5
