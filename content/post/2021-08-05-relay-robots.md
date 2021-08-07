@@ -2,7 +2,7 @@
 title: Pod Racers
 date: 2021-08-05
 hero: "/images/relayrobots.jpg"
-excerpt: Pod racing.
+excerpt: Robots that autonomusly run a relay with an IR based navigation system. Coded in C with hierarchical state machines with PIC32 MCUs.
 timeToRead: 10
 authors: 
 - Tim Samuelsen
