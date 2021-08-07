@@ -11,4 +11,6 @@ social:
     url: https://www.linkedin.com/in/timsamuelsen
   - title: github
     url: https://github.com/TimSamuelsen
+  - title: instagram
+    url: https://instagram.com/tim.samuelsen/
 ---
