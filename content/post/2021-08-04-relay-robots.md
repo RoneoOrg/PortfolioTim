@@ -1,6 +1,6 @@
 ---
 title: Pod Racers
-date: 2021-08-6
+date: 2021-08-04
 hero: "/images/relayrobots.jpg"
 excerpt: Pod racing.
 timeToRead: 10
