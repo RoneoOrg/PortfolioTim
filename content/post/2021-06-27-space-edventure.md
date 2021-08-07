@@ -1,9 +1,8 @@
 ---
 title: Space EdVenture
-date: 2021-05-27
+date: 2021-06-27
 hero: "/images/space-edventure.jpg"
-excerpt: Keep Ed's spaceship from colliding with asteroids for as long as possible. 
-​  Be warned, the asteroids grow thicker as you near the center of the galaxy...
+excerpt: Keep Ed's spaceship from colliding with asteroids for as long as possible. Be warned, the asteroids grow thicker as you near the center of the galaxy...
 timeToRead: 8
 authors:
 - Tim Samuelsen
