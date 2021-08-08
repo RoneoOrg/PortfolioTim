@@ -1,5 +1,8 @@
     <div class="bio-container">
-        {{ range site.Taxonomies.authors }}
+        <div>    
+		<a href="https://www.timsamuelsen.com/authors/tim-samuelsen/">About</a><br>
+		</div>
+		{{ range site.Taxonomies.authors }}
             {{ with .Page }}
                 {{ if .Params.featured }}
                     <a href="{{ .RelPermalink }}" class="bio-link">
@@ -12,9 +15,10 @@
                         {{ end }}
                         {{ with .Params.bio }}
                             <p class="bio-text">{{ . }}</p>
-                        {{ end }}
+                        {{ end }
                     </a>
                 {{ end }}
             {{ end }}
         {{ end }}
+		
     </div>
