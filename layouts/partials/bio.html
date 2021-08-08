@@ -1,6 +1,6 @@
     <div class="bio-container">
         <div>    
-		<a href="https://www.timsamuelsen.com/authors/tim-samuelsen/">About</a><br>
+		<a href="https://www.timsamuelsen.com/authors/tim-samuelsen/">Click here for more about me</a><br>
 		</div>
 		{{ range site.Taxonomies.authors }}
             {{ with .Page }}
@@ -15,10 +15,9 @@
                         {{ end }}
                         {{ with .Params.bio }}
                             <p class="bio-text">{{ . }}</p>
-                        {{ end }
+                        {{ end }}
                     </a>
                 {{ end }}
             {{ end }}
         {{ end }}
-		
     </div>
