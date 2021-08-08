@@ -140,7 +140,9 @@
     max-width: 944px;
     overflow: hidden;
     margin: 0 auto;
-	text-align: center;
+	display:flex;
+    align-items:center;
+    justify-content:center;
     -webkit-box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
       0 18px 36px -18px rgba(0, 0, 0, 0.22);
             box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
@@ -448,7 +450,7 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-    padding: 80px 0 35px;
+    padding: 60px 0 35px;
 }
 
 /**************************************ARTICLE NEXT**************************************/
@@ -456,14 +458,17 @@
 .footer-next-heading{
     display: block;
     font-size: 1.6rem;
-    position: relative;
+    position: absolute;
     opacity: 0.25;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     min-width: 100%;
     font-weight: 400;
     color: var(--primary);
+	display:flex;
+    align-items:center;
+    justify-content:center;
   
     /*TABLET*/
     @media screen and (max-width: $tablet){
