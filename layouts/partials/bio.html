@@ -11,9 +11,11 @@
                             </div>
                         {{ end }}
                         {{ with .Params.bio }}
-							<div class="bio-text" {{ . }}>
+							<div>
+								<p class="bio-text">{{ . }}</p>
 								<br> <b> Click here for more </b>
 							</div>
+							
                         {{ end }}
                     </a>
                 {{ end }}
