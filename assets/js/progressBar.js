@@ -11,7 +11,7 @@ else{
 }
 
 if(document.getElementById("articleNext")){
-    //articleNext = document.getElementById("articleNext").offsetHeight;
+    articleNext = document.getElementById("articleNext").offsetHeight;
 }
 else{
     articleNext = 0;
