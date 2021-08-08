@@ -11,8 +11,9 @@
                             </div>
                         {{ end }}
                         {{ with .Params.bio }}
-							<p <b> Click here for more </b> </p>
-							<p class="bio-text">{{ . }} </p>
+							<div class="bio-text" {{ . }}>
+								<br> <b> Click here for more </b>
+							</div>
                         {{ end }}
                     </a>
                 {{ end }}
