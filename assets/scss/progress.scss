@@ -41,7 +41,7 @@
 }
 
 .aside-align{
-    position: fixed;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -76,7 +76,7 @@
 
 /*************************PROGRESS*************************/
 .progress-container{
-    position: relative;
+    position: absolute;
     outline: none;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -85,7 +85,7 @@
 }
 
 .track-line{
-    position: relative;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
