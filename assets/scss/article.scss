@@ -48,17 +48,14 @@
     position: relative;
     z-index: 10;
     margin:100px auto 60px;
-    padding-left: 68px;
     max-width: 749px;
   
     @media screen and (max-width: $desktop){
-        padding-left: 53px;
         max-width: calc(507px + 53px);
         margin: 100px auto 40px;
     }
 
     @media screen and (max-width: $tablet){
-        padding-left: 0;
         margin: 100px auto 40px;
         max-width: 480px;
     }
@@ -451,7 +448,7 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-    padding: 160	px 0 35px;
+    padding: 160px 0 35px;
 }
 
 /**************************************ARTICLE NEXT**************************************/
