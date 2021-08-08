@@ -8,7 +8,7 @@
     z-index: 0;
     position: -webkit-sticky;
     position: sticky;
-    top: 30%px;
+    top: 30%;
     -webkit-animation-name: progress-fade-in;
             animation-name: progress-fade-in;
     -webkit-animation-duration: 0.5s;
@@ -41,7 +41,7 @@
 }
 
 .aside-align{
-    position: absolute;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -76,7 +76,7 @@
 
 /*************************PROGRESS*************************/
 .progress-container{
-    position: absolute;
+    position: relative;
     outline: none;
     -webkit-user-select: none;
        -moz-user-select: none;
