@@ -85,7 +85,7 @@
 }
 
 .track-line{
-    position: absolute;
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -104,7 +104,7 @@
 .progress-line{
     position: absolute;
     height: 100%;
-    top: -10%;
+    top: -100%;
     width: 1px;
     background-color: var(--progress);
     left: 0;
