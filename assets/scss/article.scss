@@ -136,7 +136,8 @@
 .article-hero-image{
     position: absolute;
 	left: 50%;
-    transform: translate(-50%, 0);
+    -webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
     z-index: 1;
     width: 100%;
     max-width: 944px;
@@ -449,7 +450,6 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-	position: relative;
     padding: 60px 0 35px;
 }
 
