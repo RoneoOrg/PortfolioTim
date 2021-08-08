@@ -4,7 +4,6 @@
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-	max-height: 350px;
     max-width: 1140px;
     z-index: 0;
     position: -webkit-sticky;
@@ -54,7 +53,7 @@
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    z-index: 3;
+    z-index: 15;
   
     opacity: 1;
     visibility: visible;
