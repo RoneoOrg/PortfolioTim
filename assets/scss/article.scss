@@ -134,12 +134,13 @@
 }
 
 .article-hero-image{
-    position: static;
+    position: absolute;
     z-index: 1;
     width: 100%;
     max-width: 944px;
     overflow: hidden;
     margin: 0 auto;
+	padding-left: 40px;
 	display:flex;
     align-items:center;
     justify-content:center;
@@ -155,6 +156,7 @@
     /*DESKTOP MEDIUM*/
     @media screen and (max-width: $desktop_medium){
         position: relative;
+		padding-left: 0px;
     }
   
     /*TABLET*/
