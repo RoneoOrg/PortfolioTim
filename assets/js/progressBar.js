@@ -17,7 +17,7 @@ else{
     articleNext = 0;
 }
 
-footerSection = 150;
+footerSection = 400;
 
 bottomOffset = ((articleSubscription + articleNext + footerSection + 250) / document.body.scrollHeight) * 100 ;
 bottomOffset += bottomOffset * 1.1;
