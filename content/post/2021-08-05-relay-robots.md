@@ -16,14 +16,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet fauci
 
 Etiam id quam venenatis, laoreet lacus id, tempor ipsum. Morbi in consectetur velit, nec finibus ex. Donec tempus et velit vel interdum. Integer eget nisl scelerisque, sagittis justo et, porttitor turpis. Maecenas eu diam tincidunt, sodales urna convallis, rhoncus elit. Maecenas pulvinar euismod dignissim. Nullam vestibulum libero a nisl imperdiet varius. Fusce lectus orci, finibus nec ipsum commodo, tempor sagittis tellus.
 
-{{< youtube id="PLo9WaXOa68" title="Full Relay in Action" >}}
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=1" style="position: absolute; top: 0; max-width: 800px; height: 100%; border:0;" allowfullscreen title="Full Relay Round"></iframe>
-</div>
-
 Integer semper vulputate magna, at mollis sapien vulputate a. Sed vestibulum nunc vel dictum venenatis. Maecenas nec commodo nisi. Vestibulum volutpat mauris ac consectetur aliquet. Nulla finibus arcu ante, eu vehicula elit facilisis vel. Aenean tempus, elit sit amet tincidunt pellentesque, nibh eros dignissim libero, vel porta leo lacus a mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum malesuada, nibh vitae eleifend varius, eros mi ultricies velit, in porttitor felis metus nec felis.
 
 Donec laoreet luctus pharetra. Pellentesque consequat nibh neque, a dapibus ipsum sagittis non. Duis leo orci, dictum non fringilla vitae, accumsan molestie est. Maecenas vehicula dui lacus. Curabitur et gravida tortor, sed bibendum nisi. Cras eleifend venenatis fermentum. Donec quis nibh a turpis egestas euismod. Nullam interdum arcu quis tellus sagittis imperdiet. Nam vel sem mi. Aliquam dapibus mollis enim nec scelerisque. Nunc sed finibus nisi.
 
-Pellentesque non nunc vel ligula suscipit placerat. Aliquam sed justo faucibus, faucibus ligula eget, varius libero. Praesent et velit vel turpis egestas interdum. Ut fringilla eleifend mauris vitae tincidunt. Mauris accumsan sapien mauris, in viverra leo dignissim ut. Curabitur sit amet velit sit amet metus imperdiet auctor sed ut nibh. Maecenas ultrices et mauris et malesuada. Pellentesque scelerisque tellus at mauris convallis, nec malesuada arcu fermentum. Etiam erat lectus, semper ac tempor vel, facilisis ac quam. Curabitur eu posuere dui. Ut tincidunt tincidunt tortor vel euismod. Aenean sed sem sit amet velit egestas facilisis quis ac erat.
+{{< youtube id="PLo9WaXOa68" title="Full Relay in Action" >}}
