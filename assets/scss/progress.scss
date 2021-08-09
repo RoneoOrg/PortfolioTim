@@ -8,6 +8,7 @@
     z-index: 0;
     position: -webkit-sticky;
     position: sticky;
+	left: 0;
     top: 30%;
     -webkit-animation-name: progress-fade-in;
             animation-name: progress-fade-in;
@@ -85,7 +86,7 @@
 }
 
 .track-line{
-    position: relative;
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
