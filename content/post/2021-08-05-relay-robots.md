@@ -10,9 +10,9 @@ authors:
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet faucibus enim, at tincidunt orci. Proin eros neque, fringilla ut est ac, laoreet consequat est. Fusce nibh turpis, faucibus at tempus ac, bibendum sed diam. Sed diam risus, accumsan quis nibh at, placerat condimentum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sagittis mi ac velit malesuada sodales. Donec justo felis, commodo ut neque et, hendrerit commodo lacus. Phasellus tristique nisl non molestie elementum. Phasellus porta ex metus, vitae venenatis ligula ultrices et.
 
-|  Exiting the Handoff |  Traversing the Track | Alignment and Handoff |
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://media.giphy.com/media/UJeHTPoqCSgDqVLgBZ/giphy.gif)  | ![](/images/traverse.gif)  | ![](/images/handoff.gif)
+|  Handoff and Exit |  Traversing the Track |
+:-------------------------:|:-------------------------:
+![](https://media.giphy.com/media/2Vco2b407VFqqLjDFJ/giphy.gif)  | ![](https://media.giphy.com/media/f315xgjq2cxD0e0tiv/giphy.gif)
 
 Etiam id quam venenatis, laoreet lacus id, tempor ipsum. Morbi in consectetur velit, nec finibus ex. Donec tempus et velit vel interdum. Integer eget nisl scelerisque, sagittis justo et, porttitor turpis. Maecenas eu diam tincidunt, sodales urna convallis, rhoncus elit. Maecenas pulvinar euismod dignissim. Nullam vestibulum libero a nisl imperdiet varius. Fusce lectus orci, finibus nec ipsum commodo, tempor sagittis tellus.
 
