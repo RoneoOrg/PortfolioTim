@@ -137,7 +137,7 @@
     position: absolute;
 	left: 50%;
     transform: translate(-50%, 0);
-    z-index: 0;
+    z-index: 1;
     width: auto;
 	max-height: 500px;
     max-width: 944px;
@@ -451,7 +451,7 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-	z-index: 0;
+	z-index: 1;
     padding: 60px 0 35px;
 }
 
