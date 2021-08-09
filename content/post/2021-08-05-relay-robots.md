@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet fauci
 
 |  Exiting the Handoff |  Traversing the Track | Alignment and Handoff |
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/images/out-and-turn.gif)  | ![](/images/traverse.gif)  | ![](/images/handoff.gif)
+![](https://media.giphy.com/media/UJeHTPoqCSgDqVLgBZ/giphy.gif)  | ![](/images/traverse.gif)  | ![](/images/handoff.gif)
 
 Etiam id quam venenatis, laoreet lacus id, tempor ipsum. Morbi in consectetur velit, nec finibus ex. Donec tempus et velit vel interdum. Integer eget nisl scelerisque, sagittis justo et, porttitor turpis. Maecenas eu diam tincidunt, sodales urna convallis, rhoncus elit. Maecenas pulvinar euismod dignissim. Nullam vestibulum libero a nisl imperdiet varius. Fusce lectus orci, finibus nec ipsum commodo, tempor sagittis tellus.
 
