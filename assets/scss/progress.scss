@@ -5,7 +5,7 @@
     display: flex;
     margin: 0 auto;
     max-width: 1140px;
-    z-index: -1;
+    z-index: 0;
     position: -webkit-sticky;
     position: sticky;
     top: 30%;
@@ -13,7 +13,6 @@
             animation-name: progress-fade-in;
     -webkit-animation-duration: 0.5s;
             animation-duration: 0.5s;
-	display: none;
   
     /*DESKTOP MEDIUM*/
     @media screen and (max-width: $desktop_medium){
@@ -54,7 +53,7 @@
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    z-index: 15;
+    z-index: 0;
   
     opacity: 1;
     visibility: visible;
