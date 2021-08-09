@@ -9,7 +9,7 @@
     position: -webkit-sticky;
     position: sticky;
 	left: 0;
-    top: 30%;
+    top: 15%;
     -webkit-animation-name: progress-fade-in;
             animation-name: progress-fade-in;
     -webkit-animation-duration: 0.5s;
@@ -78,7 +78,6 @@
 /*************************PROGRESS*************************/
 .progress-container{
     position: absolute;
-	top: -400px;
     outline: none;
     -webkit-user-select: none;
        -moz-user-select: none;
