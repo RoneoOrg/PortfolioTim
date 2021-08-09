@@ -5,7 +5,8 @@ initColors();
 
 function initColors(){
     if (localStorage.getItem("isLight") === null) {
-        localStorage.setItem("isLight", 'true');
+			localStorage.setItem("isLight", 'false');
+		}
     }
 
     if (localStorage.getItem("isLight") === 'false'){
