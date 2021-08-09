@@ -9,11 +9,11 @@
     position: -webkit-sticky;
     position: sticky;
     top: 30%;
-	display: none;
     -webkit-animation-name: progress-fade-in;
             animation-name: progress-fade-in;
     -webkit-animation-duration: 0.5s;
             animation-duration: 0.5s;
+	display: none;
   
     /*DESKTOP MEDIUM*/
     @media screen and (max-width: $desktop_medium){
