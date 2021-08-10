@@ -1,5 +1,5 @@
 ---
-title: Space EdVenture
+title: Space EdVenture, 
 date: 2021-06-27
 hero: "/images/space-edventure.jpg"
 excerpt: Team designed console and game. Keep Ed's spaceship from colliding with asteroids for as long as possible. 
@@ -20,4 +20,6 @@ Integer semper vulputate magna, at mollis sapien vulputate a. Sed vestibulum nun
 
 Donec laoreet luctus pharetra. Pellentesque consequat nibh neque, a dapibus ipsum sagittis non. Duis leo orci, dictum non fringilla vitae, accumsan molestie est. Maecenas vehicula dui lacus. Curabitur et gravida tortor, sed bibendum nisi. Cras eleifend venenatis fermentum. Donec quis nibh a turpis egestas euismod. Nullam interdum arcu quis tellus sagittis imperdiet. Nam vel sem mi. Aliquam dapibus mollis enim nec scelerisque. Nunc sed finibus nisi.
 
-{{< youtube id="3R-3P-1K4Go" title="Space EdVenture in Action" >}}
+|  Space EdVenture Demo |
+:-------------------------:|
+{{< youtube id="3R-3P-1K4Go" title="Space EdVenture" >}}
