@@ -1,8 +1,8 @@
 ---
-title: Space EdVenture, 
+title: Space EdVenture, Game and Handheld Console
 date: 2021-06-27
 hero: "/images/space-edventure.jpg"
-excerpt: Team designed console and game. Keep Ed's spaceship from colliding with asteroids for as long as possible. 
+excerpt: A handheld game console soldered together and mounted in a 3d printed case, comes with a custom game written in C for the OLED screen. 
 timeToRead: 8
 authors:
 - Tim Samuelsen
