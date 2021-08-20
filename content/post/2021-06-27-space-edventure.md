@@ -2,23 +2,24 @@
 title: Space EdVenture, Game and Handheld Console
 date: 2021-06-27
 hero: "/images/space-edventure.jpg"
-excerpt: A handheld game console soldered together and mounted in a 3d printed case, comes with a custom game written in C for the OLED screen. 
+excerpt: A handheld game console soldered together and mounted in a 3D printed case, comes with a custom game written in C for the OLED screen. 
 timeToRead: 8
 authors:
 - Tim Samuelsen
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet faucibus enim, at tincidunt orci. Proin eros neque, fringilla ut est ac, laoreet consequat est. Fusce nibh turpis, faucibus at tempus ac, bibendum sed diam. Sed diam risus, accumsan quis nibh at, placerat condimentum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sagittis mi ac velit malesuada sodales. Donec justo felis, commodo ut neque et, hendrerit commodo lacus. Phasellus tristique nisl non molestie elementum. Phasellus porta ex metus, vitae venenatis ligula ultrices et.
+A handheld game console soldered together and mounted in a 3D printed case, comes with a custom game written in C for the OLED screen.
+This was a project I worked on with Adam Wiktor and Ethan Kurteff in the ME218 course series at Stanford. You can find more detailed documentation on the hardware and software in our [project report website](https://space-edventure.weebly.com/). Including circuit schematics, state diagrams, code lisiting, and pseudocode.
+
+Space EdVenture is an arcade style survival game in which the player must navigate through an endless asteroid field to rack up the high score. As the score rises the asteroids field grows thicker, resulting in a progressively increasing difficulty. The ship is equipped with an advanced weapons system to destroy asteroids in it's path. Picking up ammo along the way will greatly benfit the player. See below for a look at the Standard Laser, Proton Bomb, and Super Laser in action.
 
 |  Standard Laser |  Proton Bomb |   Super Laser |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://media.giphy.com/media/wkOnQNY0NJps0oVl0I/giphy.gif) | ![](https://media.giphy.com/media/XgVBoQ4dubMzya32O8/giphy.gif) | ![](https://media.giphy.com/media/AXPEvCLGbYEeo2AI9d/giphy.gif)  |
 
-Etiam id quam venenatis, laoreet lacus id, tempor ipsum. Morbi in consectetur velit, nec finibus ex. Donec tempus et velit vel interdum. Integer eget nisl scelerisque, sagittis justo et, porttitor turpis. Maecenas eu diam tincidunt, sodales urna convallis, rhoncus elit. Maecenas pulvinar euismod dignissim. Nullam vestibulum libero a nisl imperdiet varius. Fusce lectus orci, finibus nec ipsum commodo, tempor sagittis tellus.
+The electronics are soldered onto a perfboard and mounted into a custom designed 3D printed case. The power supply can be connected to an outlet through the barrel jack or powered by a 9V battery for a completely wireless experience. The PIC32 microcontroller serves as the brains of the operation, interpreting user inputs and coordinating communication between subsystems. User input comes from an analog joystick, a capacitive touch sensor, and a mechanical button. The game is displayed on an OLED screen and uses RGB LEDs as indicators, both display subsystems are connected to the PIC32 using SPI. A 74AC244N buffer is used to shift clock and data signals to the 5v logic level required to drive the DotStar.
 
-Integer semper vulputate magna, at mollis sapien vulputate a. Sed vestibulum nunc vel dictum venenatis. Maecenas nec commodo nisi. Vestibulum volutpat mauris ac consectetur aliquet. Nulla finibus arcu ante, eu vehicula elit facilisis vel. Aenean tempus, elit sit amet tincidunt pellentesque, nibh eros dignissim libero, vel porta leo lacus a mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum malesuada, nibh vitae eleifend varius, eros mi ultricies velit, in porttitor felis metus nec felis.
-
-Donec laoreet luctus pharetra. Pellentesque consequat nibh neque, a dapibus ipsum sagittis non. Duis leo orci, dictum non fringilla vitae, accumsan molestie est. Maecenas vehicula dui lacus. Curabitur et gravida tortor, sed bibendum nisi. Cras eleifend venenatis fermentum. Donec quis nibh a turpis egestas euismod. Nullam interdum arcu quis tellus sagittis imperdiet. Nam vel sem mi. Aliquam dapibus mollis enim nec scelerisque. Nunc sed finibus nisi.
+![Master Electrical Schematic](/images/space-edventure-schematic.png)
 
 |  Space EdVenture Demo |
 :-------------------------:|
