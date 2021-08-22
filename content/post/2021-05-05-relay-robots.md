@@ -12,14 +12,14 @@ Robots that autonomously run a relay with an IR based navigation system. Coded i
 
 Our team was tasked with building 3 robots to autonomously run a relay race for 2 minutes and 18 seconds. The track was a 2.5 meter diameter circle with two handoff boxes on either side of the circle 2 meters apart. We designed each robot with three subsystems run on PIC32 MCUs. 
 * Navigation: Two IR sensing phototransistors soldered to signal conditioning boards which implemented op-amps, comparators and AC coupling to ensure a clean and reliable signal. An IR beacon board emits a homing signal for the robots to locate each other. 
-* Locomotion: two-wheel differential drive layout, with power coming from two DC gearmotors running in locked anti-phase drive
-* Master which implements the hierarchical state machine and acts as the brain of the operations. 
+* Locomotion: two-wheel differential drive layout, with power coming from two DC gearmotors running in locked anti-phase drive. PID control is used to tune the PWM signal for motor speed control.
+* Master which implements the hierarchical state machine and interfaces with the navigation and locomotion subsystems through a Serial Peripheral Interface (SPI) connection. It also handles other hardware on the robots including LEDs, a servo, a potentiometer, and several switches  
 
-|  Handoff and Exit |  Traversing the Track |
+|  Handoff and Signal Acquisition |  Traversing the Track |
 :-------------------------:|:-------------------------:
 ![](https://media.giphy.com/media/2Vco2b407VFqqLjDFJ/giphy.gif)  | ![](https://media.giphy.com/media/f315xgjq2cxD0e0tiv/giphy.gif)
 
-Etiam id quam venenatis, laoreet lacus id, tempor ipsum. Morbi in consectetur velit, nec finibus ex. Donec tempus et velit vel interdum. Integer eget nisl scelerisque, sagittis justo et, porttitor turpis. Maecenas eu diam tincidunt, sodales urna convallis, rhoncus elit. Maecenas pulvinar euismod dignissim. Nullam vestibulum libero a nisl imperdiet varius. Fusce lectus orci, finibus nec ipsum commodo, tempor sagittis tellus.
+Our navigation strategy consisted of three stages: signal acquisition, traversing the track, and handoff. First the robot would exit the handoff box by driving a predetermined length forward, it would then turn ccw until the front phototransistor acquired a signal... TBD
 
 |  Pod Racers in Action |
 :-------------------------:|
