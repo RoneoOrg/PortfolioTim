@@ -8,7 +8,12 @@ authors:
 - Tim Samuelsen
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet faucibus enim, at tincidunt orci. Proin eros neque, fringilla ut est ac, laoreet consequat est. Fusce nibh turpis, faucibus at tempus ac, bibendum sed diam. Sed diam risus, accumsan quis nibh at, placerat condimentum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum sagittis mi ac velit malesuada sodales. Donec justo felis, commodo ut neque et, hendrerit commodo lacus. Phasellus tristique nisl non molestie elementum. Phasellus porta ex metus, vitae venenatis ligula ultrices et.
+Robots that autonomously run a relay with an IR based navigation system. Coded in C using hierarchical state machines running on PIC32 MCUs. This is a project I worked on with Adam Wiktor and Chris Barresi in the ME218 course series at Stanford. You can find more detailed documentation on the hardware and software in our [project report website](https://hotgluehope.weebly.com/). Including circuit schematics, state diagrams, code lisiting, and pseudocode.
+
+Our team was tasked with building 3 robots to autonomously run a relay race for 2 minutes and 18 seconds. The track was a 2.5 meter diameter circle with two handoff boxes on either side of the circle 2 meters apart. We designed each robot with three subsystems run on PIC32 MCUs; navigation, locomotion, and master. The navigation subsystem included two IR sensing phototransistors and an IR beacon board. By scanning for 
+
+We equipped each robot with a navigation system comprised of a PIC32 MCU connected to two IR sensing phototransistors and an IR beacon board. The navi
+With precise signal conditioning circuits and tuned software we 
 
 |  Handoff and Exit |  Traversing the Track |
 :-------------------------:|:-------------------------:
