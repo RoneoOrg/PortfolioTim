@@ -33,7 +33,7 @@ function updateProgress(){
             progressBar.style.opacity = "0";
         }, 5);
     }
-    else if (percentScrolled < 95){
+    else{
         progressBar.style.animationName = "progress-fade-in";
         setTimeout(function(){
             progressBar.style.opacity = "1";
