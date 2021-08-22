@@ -31,7 +31,7 @@ function updateProgress(){
         progressBar.style.animationName = "progress-fade-out";
         setTimeout(function(){
             progressBar.style.opacity = "0";
-        }, 500);
+        }, 1000);
     }
     else{
         progressBar.style.animationName = "progress-fade-in";
