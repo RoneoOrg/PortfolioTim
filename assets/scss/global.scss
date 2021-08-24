@@ -216,6 +216,10 @@ img{
           animation-duration: 0.8s;
 }
 
+figcaption {
+  text-align: center;
+}
+
 @-webkit-keyframes image-load-in {
   0% {-webkit-filter: blur(8px);filter: blur(8px); opacity: 0;}
   100% {-webkit-filter: blur(0);filter: blur(0); opacity: 1;}
