@@ -23,4 +23,4 @@ Space EdVenture is an arcade style survival game in which the player must naviga
 
 The electronics are soldered onto a perfboard and mounted into a custom designed 3D printed case. The power supply can be connected to an outlet through the barrel jack or powered by a 9V battery for a completely wireless experience. The PIC32 microcontroller serves as the brains of the operation, interpreting user inputs and coordinating communication between subsystems. User input comes from an analog joystick, a capacitive touch sensor, and a mechanical button. The game is displayed on an OLED screen and uses RGB LEDs as indicators, both display subsystems are connected to the PIC32 using SPI. A 74AC244N buffer is used to shift clock and data signals to the 5v logic level required to drive the DotStar.
 
-![Master Electrical Schematic](/images/space-edventure-schematic.png)
+{{< figure src="/images/space-edventure-schematic.png#center" class="aligncenter" width="800em" title="Master Electrical Schematic" >}} 
