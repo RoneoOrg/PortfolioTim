@@ -2,7 +2,7 @@
 title: Tim Samuelsen
 bio: |
   MS in Mechanical Engineering graduate student at Stanford University, specializing in mechatronics and 
-  smart product design. Full stack application and embedded systems developer for advanced CLIP 3D printers at the DeSimone Research Group.
+  smart product design. Software and systems developer for advanced CLIP 3D printers at the DeSimone Research Group.
  
 avatar: /images/tim-samuelsen.jpg
 featured: true
